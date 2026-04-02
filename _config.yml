@@ -4,6 +4,10 @@ theme: minima
 email: adrian.kelly@kuleuven.be
 github_username: akelly810
 
+header_pages:
+  - publications.md
+  - tests.md
+
 markdown: kramdown
 kramdown:
-  math_engine: mathjax
+  math_engine: null

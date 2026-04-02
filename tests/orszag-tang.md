@@ -13,6 +13,7 @@ Since AGILE is a fully 3D code, we run this as an extruded 2D problem: the initi
 
 ## AGILE setup
 For our $[0,1]^3$ domain, we use the following initial conditions:
+
 $$
 \begin{align*}
 \rho &= \frac{25}{36\pi}  \\

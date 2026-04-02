@@ -3,8 +3,8 @@ layout: page
 title: AGILE Tests
 ---
 
-This page documents a subset of the test problems implemented in [AGILE](https://github.com/amrvac/AGILE-experimental), a GPU-accelerated MHD code built on the [MPI-AMRVAC](http://amrvac.org) framework.
-All tests are run in 3D.
+This page documents some test problems I have implemented for [AGILE](https://github.com/amrvac/AGILE-experimental), a GPU-accelerated MHD code built on the [MPI-AMRVAC](http://amrvac.org) framework.
+All tests are run in 3D. This is a personal collection and not (yet) part of the official AGILE documentation.
 
 See also:
 [MPI-AMRVAC tests](http://amrvac.org/test.html).

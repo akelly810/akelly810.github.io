@@ -3,3 +3,7 @@ description: PhD student at CmPA, KU Leuven
 theme: minima
 email: adrian.kelly@kuleuven.be
 github_username: akelly810
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax

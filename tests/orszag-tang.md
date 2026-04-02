@@ -42,17 +42,17 @@ $\mathbf{A}$ is the magnetic vector potential, from which $\mathbf{B}$ is initia
 
 ### 2D maps at $t = 0.5$
 
-![2D maps at t=0.5](../assets/tests/orszag-tang/ot_maps.png)
+[![2D maps at t=0.5](../assets/tests/orszag-tang/ot_maps.png)](../assets/tests/orszag-tang/ot_maps.png){:style="width:100%"}
 *Density $\rho$, pressure $p$, and magnetic field magnitude $|\mathbf{B}|$ at $t = 0.5$ on a $256^2$ grid with TVDLF and Van Leer reconstruction.*
 
 ### Pressure profiles at $t = 0.5$
 
-![Pressure slices at t=0.5](../assets/tests/orszag-tang/ot_pressure.png)
+[![Pressure slices at t=0.5](../assets/tests/orszag-tang/ot_pressure.png)](../assets/tests/orszag-tang/ot_pressure.png)
 *Pressure along horizontal slices at $y = 0.3125$ and $y = 0.4277$ at $t = 0.5$. These can be compared with many standard solutions such as [ATHENA (J. Stone)](https://www.astro.princeton.edu/~jstone/Athena/tests/orszag-tang/pagesource.html), amongst others.*
 
 ### Divergence cleaning
 
-![Divergence of B: GLM vs no GLM](../assets/tests/orszag-tang/divb_comparison.png)
+[![Divergence of B: GLM vs no GLM](../assets/tests/orszag-tang/divb_comparison.png)](../assets/tests/orszag-tang/divb_comparison.png)
 *Evolution of $\max|\nabla\cdot\mathbf{B}|$ over time with and without GLM divergence cleaning.*
 
 

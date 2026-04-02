@@ -23,6 +23,7 @@ A_z &= \frac{b_0}{2\pi}\left[\tfrac{1}{2}\cos(4\pi x) + \cos(2\pi y)\right] \\
 \mathbf{B} &= \left[-b_0\sin(2\pi y),\; b_0\sin(4\pi x),\; 0\right]
 \end{align*}
 $$
+
 with $b_0 = 1/\sqrt{4\pi}$. Note that these initial conditions give $c_s^2 = \gamma p / \rho = 1$, a standard normalisation for this problem.
 
 $\mathbf{A}$ is the magnetic vector potential, from which $\mathbf{B}$ is initialised analytically via $\mathbf{B} = \nabla \times \mathbf{A}$; the vector potential form is given here for reference and for future constrained transport (CT) runs. The simulations shown here instead use GLM divergence cleaning (Dedner et al., 2002).

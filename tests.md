@@ -1,6 +1,7 @@
 ---
 layout: page
 title: AGILE Tests
+published: false
 ---
 
 This page documents some test problems I have implemented for [AGILE](https://github.com/amrvac/AGILE-experimental), a GPU-accelerated MHD code built on the [MPI-AMRVAC](http://amrvac.org) framework.

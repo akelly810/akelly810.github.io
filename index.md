@@ -11,5 +11,3 @@ My research focuses on solar coronal condensations, including prominence formati
 I am also interested in MHD spectral theory and computational astrophysics more broadly.
 
 I am a contributor to [AGILE](https://github.com/amrvac/AGILE-experimental), a GPU-accelerated MHD code built on the [MPI-AMRVAC](http://amrvac.org) framework, and to the [Legolas](https://legolas.science) MHD spectroscopy code.
-
-[ORCID](https://orcid.org/0009-0006-8524-008X)

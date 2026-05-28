@@ -7,7 +7,7 @@ title: Publications
 - **foap4: Adaptive mesh refinement with OpenACC, MPI, and p4est**, Teunissen, J., Olivares Sánchez, H. R., Vos, J., Oostrum, L., Hidding, J., Azizi, V., Zhou, Y., Wu, H., **Kelly, A.**, Willocx, O., Xia, C., Keppens, R., & Porth, O. (Submitted, 2026).
   \[[arXiv](https://arxiv.org/abs/2605.07612)\]
 
-- **Thermal instability in coronal loops: Linking eigenvalue spectra to time-dependent evolution**, **Kelly, A.**, Keppens, R., & De Jonghe, J., *Astronomy & Astrophysics* (To appear, 2026).
+- **Thermal instability in coronal loops: Linking eigenvalue spectra to time-dependent evolution**, **Kelly, A.**, Keppens, R., & De Jonghe, J., *Astronomy & Astrophysics* (2026).
   \[[DOI](https://doi.org/10.1051/0004-6361/202659934)\] \[[arXiv](https://arxiv.org/abs/2604.24315)\]
 
 ## 2025

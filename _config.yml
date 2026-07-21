@@ -1,12 +1,19 @@
 title: Adrian Kelly
-description: PhD student at CmPA, KU Leuven
+description: PhD student in computational plasma astrophysics at CmPA, KU Leuven. Solar coronal condensations, MHD spectral theory, and GPU-accelerated MHD.
+url: "https://akelly810.github.io"
+author: Adrian Kelly
+lang: en_GB
+
 theme: minima
 email: adrian.kelly@kuleuven.be
 github_username: akelly810
 
 header_pages:
   - publications.md
-  - tests.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
 
 markdown: kramdown
 kramdown:

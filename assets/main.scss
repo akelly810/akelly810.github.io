@@ -1,5 +1,10 @@
 ---
 ---
+// Override minima variables before the import (they are declared with !default).
+// Softer off-white with a slight cool bias toward the blue accent.
+// Swap for a warm tone (e.g. #faf8f4) if you prefer.
+$background-color: #faf8f4;
+
 @import "minima";
 
 /* --- Publications --- */
@@ -11,7 +16,11 @@
   margin-top: 1.6em;
 }
 
-// Small "Submitted / Under review" status pill
+// Status pills. A badge should mark the exception, not the default:
+//   (base)      amber  — pending manuscript status (Submitted, Under review)
+//   --accepted  green  — accepted / in press (positive "done", vs amber "pending")
+//   --invited   blue   — invited talk (contributed talks are the default, no badge)
+//   --first     ghost  — first-author marker; understated so it doesn't compete
 .pub-badge {
   display: inline-block;
   font-size: 0.7em;
@@ -19,10 +28,25 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
   padding: 0.15em 0.55em;
+  border: 1px solid transparent;   // keeps box size constant for outline variants
   border-radius: 4px;
-  background: #f0ad4e;   // amber
+  background: #f0ad4e;
   color: #fff;
   vertical-align: middle;
+
+  &--accepted {
+    background: #2e9e5b;
+  }
+
+  &--invited {
+    background: $brand-color;
+  }
+
+  &--first {
+    background: transparent;
+    color: $grey-color-dark;
+    border-color: $grey-color;
+  }
 }
 
 // DOI / arXiv links as outlined pills instead of literal brackets
@@ -40,5 +64,36 @@
     background: $brand-color;
     color: #fff;
     text-decoration: none;
+  }
+}
+
+// Collapsible abstract, styled so the <summary> reads as clickable
+.pub-abstract {
+  margin-top: 0.6em;
+  font-size: 0.92em;
+  color: $grey-color-dark;
+
+  summary {
+    cursor: pointer;
+    display: inline-block;
+    color: $brand-color;
+    list-style: none;
+
+    &::-webkit-details-marker { display: none; }
+
+    &::before {
+      content: "▸ ";
+      font-size: 0.75em;
+      vertical-align: middle;
+    }
+  }
+
+  &[open] summary::before {
+    content: "▾ ";
+  }
+
+  p, div {
+    margin: 0.5em 0 0;
+    line-height: 1.55;
   }
 }

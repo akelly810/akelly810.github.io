@@ -6,12 +6,12 @@ layout: home
 
 I am a PhD student at the [Centre for mathematical Plasma Astrophysics (CmPA)](https://wis.kuleuven.be/CmPA), KU Leuven, supervised by [Prof. Rony Keppens](https://homes.esat.kuleuven.be/~keppens/).
 
-My research focuses on **solar coronal condensations**, including prominence formation and coronal rain. 
-I am also interested in MHD spectral theory and computational astrophysics more broadly.
+My research centres on the **multithermal structure** of the solar corona and how it gives rise to fine-scale features such as coronal rain, prominence threads, and loop strands.
+I'm also interested in MHD spectral theory and GPU-accelerated, shock-capturing AMR schemes for astrophysical fluid dynamics.
 
 I am an active developer of two open-source codes:
 
-- **[AGILE](https://github.com/amrvac/AGILE-experimental)** — a GPU-accelerated MHD code built on the [MPI-AMRVAC](http://amrvac.org) framework.
-- **[Legolas](https://legolas.science)** — an MHD spectroscopy code.
+- **[AGILE](https://github.com/amrvac/AGILE-experimental)** — a GPU-accelerated adaptive-mesh MHD code built on [MPI-AMRVAC](http://amrvac.org).
+- **[Legolas](https://legolas.science)** — a finite-element code for linear MHD spectroscopy, used to compute eigenvalues and eigenmodes of magnetised plasma equilibria.
 
 **Contact:** [adrian.kelly@kuleuven.be](mailto:adrian.kelly@kuleuven.be) &middot; [ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0009-0006-8524-008X&sort=date+desc) &middot; [ORCID](https://orcid.org/0009-0006-8524-008X) &middot; [Google Scholar](https://scholar.google.com/citations?user=iudUFaIAAAAJ&hl=en) &middot; [GitHub](https://github.com/akelly810)

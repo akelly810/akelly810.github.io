@@ -5,6 +5,7 @@ title: Publications
 
 ## 2026
 - **Astrophysics on GPUs: introducing AGILE 1.0**, Porth, O., **Kelly, A.**, Willocx, O., Wu, H., Vos, J., Zhou, Y., Olivares Sánchez, H. R., Oostrum, L., Hidding, J., Azizi, V., Xia, C., Keppens, R., & Teunissen, J. <span class="pub-badge">Submitted</span> *RAS Techniques and Instruments*, 2026.
+  [arXiv](https://arxiv.org/abs/2607.19277){:.pub-link}
   <details class="pub-abstract"><summary>Abstract</summary>
   <p>We present AGILE, a GPU-enabled adaptive mesh refinement (AMR) framework for the solution of (near-)conservation laws which occur in astro- and solar-physical applications. AGILE is written in modern Fortran 2003, inherits part of its modules and mesh handling from MPI-AMRVAC, and achieves excellent GPU performance via OpenACC offloading. We here discuss the design decisions which enable AGILE to perform cost-efficient and scalable deeply nested AMR simulations with moderate block sizes of e.g. 16³ cells. AGILE currently implements several physics modules, i.e. hydrodynamics, frozen-field hydrodynamics, magnetohydrodynamics and special-relativistic hydrodynamics, and can easily be extended further through its modular design. Besides strong scaling tests to up to 2048 GPUs and standard benchmarks which show consistent performance across a large range of devices and problem sizes, we demonstrate AGILE's capabilities by means of state-of-the-art science applications with all currently available physics modules.</p>
   </details>

@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Homepage: Adrian Kelly
 ---
 
 <img src="assets/profile.jpg" alt="Adrian Kelly" width="200" height="200" decoding="async" style="width:200px; height:auto; border-radius:8px; float:right; margin:0 0 1em 1em;">

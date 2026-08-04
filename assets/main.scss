@@ -1,11 +1,13 @@
 ---
 ---
-// Override minima variables before the import (they are declared with !default).
-// Softer off-white with a slight cool bias toward the blue accent.
-// Swap for a warm tone (e.g. #faf8f4) if you prefer.
 $background-color: #faf8f4;
 
 @import "minima";
+
+/* --- Home --- */
+.home > .page-heading {
+  display: none;
+}
 
 /* --- Publications --- */
 

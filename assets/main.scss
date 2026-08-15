@@ -1,6 +1,6 @@
 ---
 ---
-$background-color: #faf8f4;
+$background-color: #fdfcfa;
 
 @import "minima";
 
@@ -18,11 +18,10 @@ $background-color: #faf8f4;
   margin-top: 1.6em;
 }
 
-// Status pills. A badge should mark the exception, not the default:
-//   (base)      amber  — pending manuscript status (Submitted, Under review)
-//   --accepted  green  — accepted / in press (positive "done", vs amber "pending")
+// Status pills:
+//   (base)      grey   — pending manuscript status (Submitted, Under review)
+//   --accepted  green  — accepted / in press
 //   --invited   blue   — invited talk (contributed talks are the default, no badge)
-//   --first     ghost  — first-author marker; understated so it doesn't compete
 .pub-badge {
   display: inline-block;
   font-size: 0.7em;
@@ -30,9 +29,8 @@ $background-color: #faf8f4;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   padding: 0.15em 0.55em;
-  border: 1px solid transparent;   // keeps box size constant for outline variants
   border-radius: 4px;
-  background: #f0ad4e;
+  background: $grey-color;
   color: #fff;
   vertical-align: middle;
 
@@ -42,12 +40,6 @@ $background-color: #faf8f4;
 
   &--invited {
     background: $brand-color;
-  }
-
-  &--first {
-    background: transparent;
-    color: $grey-color-dark;
-    border-color: $grey-color;
   }
 }
 

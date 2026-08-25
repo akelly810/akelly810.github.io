@@ -15,7 +15,7 @@ I also work on GPU-accelerated, shock-capturing AMR methods for astrophysical fl
 
 I am an active developer of two open-source codes:
 
-- **[AGILE](https://github.com/amrvac/AGILE-experimental)** — a GPU-accelerated adaptive-mesh MHD code built on [MPI-AMRVAC](http://amrvac.org).
+- **[AGILE](https://amrvac.github.io/AGILE/)** — a GPU-accelerated adaptive-mesh MHD code built on [MPI-AMRVAC](http://amrvac.org).
 - **[Legolas](https://legolas.science)** — a finite-element code for linear MHD spectroscopy, used to compute eigenvalues and eigenmodes of magnetised plasma equilibria.
 
 **Contact:** [adrian.kelly@kuleuven.be](mailto:adrian.kelly@kuleuven.be) &middot; [ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A0009-0006-8524-008X&sort=date+desc) &middot; [ORCID](https://orcid.org/0009-0006-8524-008X) &middot; [Google Scholar](https://scholar.google.com/citations?user=iudUFaIAAAAJ&hl=en) &middot; [GitHub](https://github.com/akelly810)

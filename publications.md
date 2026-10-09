@@ -30,6 +30,9 @@ title: Publications
   </details>
 
 ## Talks
+- **IAU Symposium 410: New look at solar and stellar coronae**, Shenzhen, China (29 Nov–4 Dec 2026)
+  *"Perpendicular thermal conduction and the emergence of coronal loop fine structure: revisiting the thermal quasi-continuum"*
+
 - **KU Leuven CmPA Seminar** (8 Oct 2026).
   *"The Legolas code: Feature update & demo"* (with J. De Jonghe & N. Brughmans)
 

@@ -30,6 +30,9 @@ title: Publications
   </details>
 
 ## Talks
+- **KU Leuven CmPA Seminar** (8 Oct 2026).
+  *"The Legolas code: Feature update & demo"* (with J. De Jonghe & N. Brughmans)
+
 - **Coronal Loops Workshop XII**, Northumbria University, Newcastle (8–11 Jun 2026).
   *"Thermal instability in coronal loops: linking eigenvalue spectra to time-dependent evolution"*
 

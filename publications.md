@@ -1,9 +1,12 @@
 ---
 layout: page
-title: Publications
+title: Publications and Talks
 ---
 
-## 2026
+[Publications](#publications) · [Talks](#talks) · [Computing Allocations](#computing-allocations)
+
+## Publications
+### 2026
 - **Astrophysics on GPUs: introducing AGILE 1.0**, Porth, O., **Kelly, A.**, Willocx, O., Wu, H., Vos, J., Zhou, Y., Olivares Sánchez, H. R., Oostrum, L., Hidding, J., Azizi, V., Xia, C., Keppens, R., & Teunissen, J. <span class="pub-badge">Submitted</span> *RAS Techniques and Instruments*, 2026.
   [arXiv](https://arxiv.org/abs/2607.19277){:.pub-link}
   <details class="pub-abstract"><summary>Abstract</summary>
@@ -22,7 +25,7 @@ title: Publications
   <p>Cool, dense condensations such as coronal rain and prominences suggest that coronal plasma can undergo runaway radiative cooling. Connecting this behaviour to linear thermal modes requires us to fully understand the deeper connection between eigenvalue spectra and actual time-dependent evolution. We aim to clarify this intricate link for a simplified, coronal-only model of a stratified coronal loop by combining spectral, linear initial-value, and nonlinear simulations of the same loop setup. We study waves and instabilities, as well as temporal evolutions for a 1D hydrostatic, thermally balanced loop with optically thin radiation and prescribed heating. The non-adiabatic spectrum is computed with our open-source Legolas code. We demonstrate our newly developed boundary value-initial value solver Legolas-IVP, where linear evolutions are performed for controlled perturbations, and fully equivalent nonlinear runs are carried out with MPI-AMRVAC. The spectrum contains discrete acoustic modes and a thermally unstable branch including a thermal continuum. Linear initial-value experiments with isochoric, isobaric, and isentropic pulses highlight how the polarisation of the eigenmodes demonstrates physically consistent behaviour expected from the eigenspectrum. Even in the linear stage, thermal imbalance drives siphon-like flows toward the cooling region. Growth rates from Legolas-IVP agree with spectral predictions and are reproduced in MPI-AMRVAC, which follows the condensation through runaway cooling to chromospheric temperatures, with the cool dense blob sliding under gravity toward the loop footpoint. The spectral-linear-nonlinear investigation demonstrates a direct link between thermal eigenmodes and condensation dynamics, providing a basis for extending to fully 3D MHD models.</p>
   </details>
 
-## 2025
+### 2025
 - **The Hydrodynamic Thermal Continuum, with Applications to Stratified Atmospheres and 1D Coronal Loop Models**, Keppens, R., De Jonghe, J., **Kelly, A.**, Brughmans, N., & Goedbloed, H., *The Astrophysical Journal* (2025).
   [DOI](https://doi.org/10.3847/1538-4357/adea43){:.pub-link} [arXiv](https://arxiv.org/abs/2506.23591){:.pub-link}
   <details class="pub-abstract"><summary>Abstract</summary>
@@ -47,3 +50,8 @@ title: Publications
 
 - **KU Leuven CmPA Seminar** (23 May 2025).
   *"Time-dependent simulation of thermal instability in 1D coronal loop models"*
+
+## Computing Allocations
+- **VSC Tier-1 Compute**, Grant holder (from 3 Nov 2026).
+  *"Three-dimensional magnetic reconnection in the solar corona with GPU-accelerated MHD simulations"*
+  30,336 GPU hours and 276,480 CPU hours (project T1CD-26A3116).
